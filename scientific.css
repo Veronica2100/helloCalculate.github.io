@@ -29,7 +29,7 @@ h1 {
 
 .main-box{
     max-width: 650px;
-    width: 60%;
+    width: 80%;
     box-shadow: 0 0 5px grey,inset 0 0 10px black;
     min-height: 40%;
     border: 1px solid black;
@@ -67,7 +67,7 @@ h1 {
 .main-box>.box-one>.box-two>span>button{
     min-width: 15%;
     max-height: 25%;
-    padding: 0.5% 2%;
+    padding: 0.5% 1%;
     margin-left: 2px;
     background: #2d2d2d;
     color: white;
