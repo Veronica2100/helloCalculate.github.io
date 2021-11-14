@@ -27,13 +27,14 @@ h1 {
 }
 
 .main-box{
-    min-width: 60%;
+    min-width: 45%;
+    max-width: 75%;
     box-shadow: 0 0 5px grey,inset 0 0 10px black;
-    height: 95vh;
+    min-height: 110vh;
     border: 1px solid black;
     display: flex;
     position: relative;
-    top: 48%;
+    top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -43,7 +44,7 @@ h1 {
 .main-box>.box-one{
     width: 95%;
     margin-left: 2.3%;
-    height: 92vh;
+    height: 90vh;
     margin-top: 3px;
     border: 1px solid black;
 }
@@ -62,11 +63,11 @@ h1 {
 
 .main-box>.box-one>.box-two>span>small{
     font-size: 10px;
-    color: aliceblue;
+    color: black;
 }
 .main-box>.box-one>.box-two>span>button{
-    width: 80px;
-    height: 28px;
+    width: 20%;
+    min-height: 25%;
     padding: 1% 2%;
     margin-left: 2px;
     background: #2d2d2d;
@@ -88,19 +89,19 @@ h1 {
 }
 
 .main-box>.box-one>.box-three>span>button{
-    min-width: 18%;
-    height: 30px;
+    width: 30%;
+    max-height: 30%;
     margin-left: 2px;
     background: darkblue;
     color: white;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    padding: 3%;
+    padding: 2% 1.5%;
 }
 
 .main-box>.box-one>.box-three>span>small{
     font-size: 10px;
-    color: aliceblue;
+    color: black;
 }
 
 .main-box>.box-one{
