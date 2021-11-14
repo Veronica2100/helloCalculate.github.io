@@ -27,7 +27,7 @@ h1 {
 }
 
 .main-box{
-    max-width: 55%;
+    max-width: 60%;
     box-shadow: 0 0 5px grey,inset 0 0 10px black;
     height: 95vh;
     border: 1px solid black;
