@@ -29,7 +29,7 @@ h1 {
 
 .main-box{
     max-width: 650px;
-    width: 50%;
+    width: 60%;
     box-shadow: 0 0 5px grey,inset 0 0 10px black;
     min-height: 40%;
     border: 1px solid black;
