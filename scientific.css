@@ -39,17 +39,6 @@ h1 {
     background: #e6ebf0;
 }
 
-@media(max-height:670){
-    .main-box{
-       height: 20%;
-    }
-}
-@media(max-width: 1440 ){
-    .main-box{
-        height: 70%;
-     }
-}
-
 .main-box>.box-one{
     width: 95%;
     margin-left: 2.3%;
