@@ -6,7 +6,7 @@
 
 body{
     width: 100%;
-    height: 100vh;
+    height: 800px;
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(calculatorGround.jpg);
     background-size: cover;
     background-position: center;
@@ -29,11 +29,11 @@ h1 {
 .main-box{
     max-width: 78%;
     box-shadow: 0 0 5px grey,inset 0 0 10px black;
-    min-height: 95%;
+    min-height: 75%;
     border: 1px solid black;
-    display: block;
+    display: flex;
     position: relative;
-    top: 10%;
+    top: 5%;
     left: 10%;
     text-align: center;
     background: #e6ebf0;
@@ -42,7 +42,7 @@ h1 {
 .main-box>.box-one{
     width: 95%;
     margin-left: 2.3%;
-    height: 90%;
+    max-height: 70%;
     margin-top: 3px;
     border: 1px solid black;
 }
@@ -64,8 +64,8 @@ h1 {
     color: black;
 }
 .main-box>.box-one>.box-two>span>button{
-    width: 20%;
-    min-height: 10%;
+    min-width: 10%;
+    max-height: 15%;
     padding: 0.5% 2%;
     margin-left: 2px;
     background: #2d2d2d;
@@ -87,14 +87,14 @@ h1 {
 }
 
 .main-box>.box-one>.box-three>span>button{
-    width: 30%;
-    max-height: 25%;
+    min-width: 20%;
+    max-height: 20%;
     margin-left: 2px;
     background: darkblue;
     color: white;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    padding: 1.5% 1.5%;
+    padding: 1% 1.5%;
 }
 
 .main-box>.box-one>.box-three>span>small{
