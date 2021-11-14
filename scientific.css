@@ -27,10 +27,9 @@ h1 {
 }
 
 .main-box{
-    min-width: 45%;
-    max-width: 75%;
+    max-width: 78%;
     box-shadow: 0 0 5px grey,inset 0 0 10px black;
-    min-height: 110vh;
+    min-height: 100%;
     border: 1px solid black;
     display: flex;
     position: relative;
@@ -44,7 +43,7 @@ h1 {
 .main-box>.box-one{
     width: 95%;
     margin-left: 2.3%;
-    height: 90vh;
+    height: 90%;
     margin-top: 3px;
     border: 1px solid black;
 }
@@ -67,8 +66,8 @@ h1 {
 }
 .main-box>.box-one>.box-two>span>button{
     width: 20%;
-    min-height: 25%;
-    padding: 1% 2%;
+    min-height: 10%;
+    padding: 0.5% 2%;
     margin-left: 2px;
     background: #2d2d2d;
     color: white;
@@ -90,13 +89,13 @@ h1 {
 
 .main-box>.box-one>.box-three>span>button{
     width: 30%;
-    max-height: 30%;
+    max-height: 25%;
     margin-left: 2px;
     background: darkblue;
     color: white;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    padding: 2% 1.5%;
+    padding: 1.5% 1.5%;
 }
 
 .main-box>.box-one>.box-three>span>small{
