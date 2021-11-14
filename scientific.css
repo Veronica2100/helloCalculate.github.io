@@ -65,7 +65,7 @@ h1 {
     color: black;
 }
 .main-box>.box-one>.box-two>span>button{
-    min-width: 15%;
+    width: 15%;
     max-height: 25%;
     padding: 0.5% 1%;
     margin-left: 2px;
