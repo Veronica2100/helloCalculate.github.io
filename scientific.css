@@ -1,0 +1,132 @@
+.logo{
+    min-width: 45%;
+    max-width: 50%;
+    cursor: pointer;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(calculatorGround.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    padding: 1%;
+    font-size: medium;
+}
+
+.main-box{
+    max-width: 55%;
+    box-shadow: 0 0 5px grey,inset 0 0 10px black;
+    height: 95vh;
+    border: 1px solid black;
+    display: flex;
+    position: relative;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: #e6ebf0;
+}
+
+.main-box>.box-one{
+    width: 95%;
+    margin-left: 2.3%;
+    height: 92vh;
+    margin-top: 3px;
+    border: 1px solid black;
+}
+
+.main-box>.box-one>.box-two{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.main-box>.box-one>.box-two>span{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-box>.box-one>.box-two>span>small{
+    font-size: 10px;
+    color: aliceblue;
+}
+.main-box>.box-one>.box-two>span>button{
+    width: 80px;
+    height: 28px;
+    padding: 1% 2%;
+    margin-left: 2px;
+    background: #2d2d2d;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.main-box>.box-one>.box-three{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.main-box>.box-one>.box-three>span{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-box>.box-one>.box-three>span>button{
+    min-width: 18%;
+    height: 30px;
+    margin-left: 2px;
+    background: darkblue;
+    color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 3%;
+}
+
+.main-box>.box-one>.box-three>span>small{
+    font-size: 10px;
+    color: aliceblue;
+}
+
+.main-box>.box-one{
+    width: 95%;
+    margin-left: 2.5%;
+    height: 25vh;
+    box-shadow: inset 0 0 10px grey;
+    border: 1px solid black;
+    background: black;
+}
+
+.main-box>.box-one>#box-one-middle{
+    width: 95%;
+    margin-left: 2.5%;
+    height: 25vh;
+    border: 1px solid black;
+    box-shadow: inset 0 0 10px grey;
+}
+
+.main-box>.box-one>#box-one-middle>input[type=text]{
+    width: 95%;
+    height: 15vh;
+    box-shadow: 0 0 8px black;
+    margin-left: 2.5%;
+    margin-top: 30px;
+    border: none;
+    font-size: 32px;
+    text-align: right;
+}

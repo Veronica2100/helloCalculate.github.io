@@ -1,0 +1,149 @@
+.logo{
+    min-width: 45%;
+    max-width: 50%;
+    cursor: pointer;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(calculatorGround.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    padding: 1%;
+    font-size: medium;
+}
+
+.container {
+    max-width: 87%;
+    max-height: 90%;
+    background: #6e7479;
+    border-radius: 5px;
+    box-shadow: 0 15px 50px 0 rgba(0,0,0,0.4), 0 15px 20px 0 rgba(0,0,0,0.2);
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 0 auto;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 10px;
+}
+.heading {
+    text-align: left;
+    font-size: 22px;
+    color: #ffffff;
+    padding: 10px 0 0 10px;
+}
+.resultscreen {
+    height: 100px;
+    width: 100%;
+    position: relative;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #e6ebf0;
+}
+input[type='text'] {
+    height: 100px;
+    width: 100%;
+    bottom: 0;
+    top: 0;
+    border: none;
+    text-align: right;
+    font-size: 32px;
+    color: #000000;
+    background: #e6ebf0;
+}
+.line {
+    width: 300px;
+}
+.buttons span {
+    width: 300px;
+}
+input[type='button'] {
+    font-size: 24px;
+    margin-left: 2%;
+    margin-top: 3%;
+    min-width: 20%;
+    max-height: 30%;
+    border: none;
+    color: #fafafa;
+    cursor: pointer;
+    outline: none;
+    background: #2d2d2d;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+input[type='button'][value='0'] {
+    border-bottom-left-radius: 5px;
+}
+input[type='button'][value='='] {
+    background: #2d2d2d;
+    color: #ffffff;
+    border-bottom-right-radius: 5px;
+    background-color: saddlebrown;
+}
+
+input[type='button'][value='+'] {
+    background: #2d2d2d;
+    color: #ffffff;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(15, 49, 124);
+}
+
+input[type='button'][value='-'] {
+    background: #2d2d2d;
+    color: #ffffff;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(15, 49, 124);
+}
+input[type='button'][value='/'] {
+    background: #2d2d2d;
+    color: #ffffff;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(15, 49, 124);
+}
+input[type='button'][value='x'] {
+    background: #2d2d2d;
+    color: #ffffff;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(15, 49, 124);
+}
+input[type='button'][value='<'] {
+    background: #2d2d2d;
+    color: #ffffff;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(15, 49, 124);
+}
+input[type='button'][value='C'] {
+    background: #2d2d2d;
+    color: #ffffff;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(15, 49, 124);
+}
+
+.button:hover {
+    background-color: #6e7479;
+}
